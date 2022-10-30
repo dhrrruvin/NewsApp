@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     void fetchData() {
 
-        String url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=ada25a05c77446488d83ae9c4f9bb5c5";
+        String url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=PaisaDeKeLoYaar";
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                 Request.Method.GET,
                 url,
